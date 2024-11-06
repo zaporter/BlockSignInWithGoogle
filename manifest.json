@@ -1,5 +1,10 @@
 {
   "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "blocksignin@zackporter.com"
+    }
+  },
   "name": "Block Sign In With Google",
   "version": "1.0",
   "action": {
