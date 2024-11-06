@@ -1,4 +1,4 @@
-# BlockSignInWithGoogle
+# Block Sign In With Google
 
 There are many ways to block this popup:
 <img src="https://github.com/zaporter/BlockSignInWithGoogle/blob/main/images/so-img.png?raw=true">
