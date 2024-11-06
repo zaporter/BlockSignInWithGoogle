@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Block Sign In With Google",
+  "version": "1.0",
+  "description": "Blocks the sign in with google popup",
+  "icons": {
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
+
