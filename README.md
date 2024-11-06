@@ -13,6 +13,6 @@ Here are some ways I found on the web:
 
 But none of those do a great job syncing across all my devices. I just wanted a simple firefox extension that blocked this div from appearing.
 
-Here it is! Add it to firefox today!
+Here it is! Add it to firefox today: https://addons.mozilla.org/en-US/firefox/addon/block-sign-in-with-google/
 
 (This should also work on chromium but I haven't tried packaging it)
