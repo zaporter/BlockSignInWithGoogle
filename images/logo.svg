@@ -1,0 +1,11 @@
+<svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <text x="26" y="64" 
+        font-family="Arial" 
+        font-size="56px" 
+        font-weight="bold" 
+        fill="#4285F4">G</text>
+  <line x1="20" y1="76" x2="76" y2="20" 
+        stroke="#DB4437" 
+        stroke-width="8" 
+        stroke-linecap="round"/>
+</svg>

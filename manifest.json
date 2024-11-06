@@ -2,9 +2,11 @@
   "manifest_version": 3,
   "name": "Block Sign In With Google",
   "version": "1.0",
-  "description": "Blocks the sign in with google popup",
-  "icons": {
+  "action": {
+    "default_icon": "./images/logo.png"
   },
+  "description": "Blocks the sign in with google popup",
+  "icons": { "128": "./images/logo.png" },
   "permissions": ["activeTab"],
   "content_scripts": [
     {
@@ -13,4 +15,3 @@
     }
   ]
 }
-
