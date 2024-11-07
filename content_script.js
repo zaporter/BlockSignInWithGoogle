@@ -1,4 +1,3 @@
-// Create a mutation observer to watch for changes in the DOM
 const observer = new MutationObserver((mutations) => {
   // Only process mutations that add nodes
   const relevantMutations = mutations.filter(
@@ -12,7 +11,6 @@ const observer = new MutationObserver((mutations) => {
     'iframe#credential_picker_iframe[src^="https://accounts.google.com/"]',
   ];
 
-  // Check each selector
   selectors.forEach((selector) => {
     const elements = document.querySelectorAll(selector);
     elements.forEach((element) => {
@@ -22,7 +20,6 @@ const observer = new MutationObserver((mutations) => {
   });
 });
 
-// Start observing the document with the configured parameters
 observer.observe(document.documentElement, {
   childList: true,
   subtree: true,
