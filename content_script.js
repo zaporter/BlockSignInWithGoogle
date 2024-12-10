@@ -1,11 +1,4 @@
-const observer = new MutationObserver((mutations) => {
-  // Only process mutations that add nodes
-  const relevantMutations = mutations.filter(
-    (mutation) => mutation.addedNodes.length > 0,
-  );
-
-  if (relevantMutations.length === 0) return;
-
+const observer = new MutationObserver(() => {
   const selectors = [
     'div#credential_picker_container > iframe[src^="https://accounts.google.com/"]',
     'iframe#credential_picker_iframe[src^="https://accounts.google.com/"]',
